@@ -1,0 +1,63 @@
+
+body {
+    background-color: #121212; 
+    margin-top: 20px; 
+}
+
+
+.img-card-fit {
+    object-fit: cover;
+    width: 80%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+
+.card-content{
+    height: 130px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.dropdown {
+    padding-bottom: 10px; 
+    padding-right: 10px; 
+    
+}
+
+#inputBuscar {
+    margin-bottom: 20px; 
+}
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+li :hover{
+   cursor: pointer; 
+}
+
+.tagline{
+    color: rgb(129, 128, 128);
+    font-style: oblique;
+}
+
+.generos{
+    color: rgb(104, 103, 103);
+}
+
+
+
+
